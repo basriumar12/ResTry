@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="9pt"
+    android:orientation="vertical"
+    tools:context="samuel.penyewaanlapangan.Main2Activity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash_screen"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/btnprofil" />
+
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:text="Sewa Lapangan"
+    android:textColor="@color/lingkaran_bola"
+    android:textSize="14dp"
+    android:textStyle="bold"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/btnsewalapangan"
+        android:layout_toStartOf="@+id/btnprofil"
+        android:layout_marginEnd="15dp" />
+
+    <Button
+    android:id="@+id/btnsewalapangan"
+    android:layout_width="130dp"
+    android:layout_height="130dp"
+    android:background="@drawable/lingkaran_flag"
+    android:drawableTop="@drawable/ic_flag"
+    android:indeterminate="false"
+    android:onClick="onClick"
+    android:padding="13dp"
+    android:textStyle="bold"
+        android:layout_marginTop="179dp"
+        android:layout_marginStart="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tentang Saya"
+        android:textColor="@color/lingkaran_profil"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:layout_below="@+id/btnprofil"
+        android:layout_alignEnd="@+id/btnprofil"
+        android:layout_marginEnd="20dp" />
+
+    <Button
+        android:id="@+id/btnprofil"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/lingkaran_profil"
+        android:drawableTop="@drawable/ic_profil"
+        android:indeterminate="false"
+        android:onClick="onClick"
+        android:padding="13dp"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/btnsewalapangan"
+        android:layout_alignBottom="@+id/btnsewalapangan"
+        android:layout_toEndOf="@+id/btnsewalapangan"
+        android:layout_marginStart="27dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Website"
+        android:textColor="@color/lingkaran_website"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/btnwebsite"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginStart="23dp" />
+
+    <Button
+        android:id="@+id/btnwebsite"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/lingkaran_website"
+        android:drawableTop="@drawable/ic_website"
+        android:indeterminate="false"
+        android:onClick="onClick"
+        android:padding="13dp"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/btninfo"
+        android:layout_alignBottom="@+id/btninfo"
+        android:layout_alignStart="@+id/btnsewalapangan" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tentang SCF"
+        android:textColor="@color/lingkaran_info"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/btninfo"
+        android:layout_alignStart="@+id/textView" />
+
+    <Button
+        android:id="@+id/btninfo"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/lingkaran_info"
+        android:drawableTop="@drawable/ic_info"
+        android:indeterminate="false"
+        android:onClick="onClick"
+        android:padding="13dp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/btnprofil" />
+
+</RelativeLayout>

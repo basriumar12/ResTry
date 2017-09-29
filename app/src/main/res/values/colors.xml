@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="blue">#05c3f9</color>
+    <color name="lingkaran_profil">#00ffff</color>
+    <color name="lingkaran_bola">#ff7f00</color>
+    <color name="lingkaran_website">#52d017</color>
+    <color name="lingkaran_info">#2b60de</color>
+
+</resources>

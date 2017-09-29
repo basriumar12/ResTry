@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "855334056142",
+    "firebase_url": "https://penyewaan-lapangan-3c98f.firebaseio.com",
+    "project_id": "penyewaan-lapangan-3c98f",
+    "storage_bucket": "penyewaan-lapangan-3c98f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855334056142:android:1c157854109a2d5c",
+        "android_client_info": {
+          "package_name": "samuel.penyewaanlapangan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855334056142-tnsc80p920revfj5v4ioirqnogdvnl9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQiVc8vtt4BvPJrjiXKYX9lxIwApBKf2Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
